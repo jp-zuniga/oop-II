@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.ir.util.toIrConst
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -60,4 +58,8 @@ dependencies {
   androidTestImplementation(libs.androidx.compose.ui.test.junit4)
   debugImplementation(libs.androidx.compose.ui.tooling)
   debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+  // navigation
+  implementation(libs.androidx.navigation.compose)
+  implementation(libs.jetbrains.kotlinx.serialization.json)
 }

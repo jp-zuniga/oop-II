@@ -1,4 +1,4 @@
-package org.loginapp.ui.screen
+package org.loginapp.ui.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column

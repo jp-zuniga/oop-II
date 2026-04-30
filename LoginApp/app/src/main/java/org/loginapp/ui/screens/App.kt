@@ -1,4 +1,4 @@
-package org.loginapp.ui.screen
+package org.loginapp.ui.screens
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
